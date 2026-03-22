@@ -1,0 +1,69 @@
+/* ── Base ───────────────────────────────────────────────────────────────── */
+body {
+    font-family: LatoLatin;
+    font-size: 18dp;
+    color: #e0e0e0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a2e;
+}
+
+/* ── Content panel ─────────────────────────────────────────────────────── */
+#content {
+    width: 500dp;
+    margin: auto;
+    margin-top: 120dp;
+    padding: 40dp 50dp;
+    background-color: #16213ecc;
+    border: 2dp #0f3460;
+    border-radius: 12dp;
+    text-align: center;
+}
+
+/* ── Typography ────────────────────────────────────────────────────────── */
+h1 {
+    font-size: 36dp;
+    font-weight: bold;
+    color: #e94560;
+    margin-bottom: 16dp;
+}
+
+p {
+    margin-bottom: 12dp;
+    line-height: 1.5;
+}
+
+p.hint {
+    font-size: 14dp;
+    color: #8888aa;
+}
+
+span.key {
+    font-weight: bold;
+    color: #53a8b6;
+    padding: 2dp 6dp;
+    background-color: #0f346044;
+    border: 1dp #53a8b644;
+    border-radius: 4dp;
+}
+
+/* ── Button ────────────────────────────────────────────────────────────── */
+button {
+    display: block;
+    margin: 24dp auto 0 auto;
+    padding: 12dp 36dp;
+    font-size: 16dp;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e94560;
+    border: 0;
+    border-radius: 8dp;
+}
+
+button:hover {
+    background-color: #ff6b81;
+}
+
+button:active {
+    background-color: #c33b52;
+}

@@ -1,0 +1,14 @@
+<rml>
+<head>
+    <title>Hello RmlUi</title>
+    <link type="text/rcss" href="hello.rcss" />
+</head>
+<body>
+    <div id="content">
+        <h1>Hello, RmlUi!</h1>
+        <p>SDL3 + OpenGL 3 + RmlUi is working.</p>
+        <p class="hint">Press <span class="key">F8</span> to toggle the debugger.</p>
+        <button id="btn-click" onclick="hello">Click Me</button>
+    </div>
+</body>
+</rml>
